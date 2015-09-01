@@ -183,7 +183,7 @@ class Fdc2112 {
         local mask = _registers[value_slot]["mask"], reply
         try  {if (setVal.len() == 2) {
                 writeStr = regAddr + format("%c%c" setVal[0], setVal[1])
-            }etse
+            }
             else {
                 server.log("Tried to write a register with too many or too few strings.")
                 return false
