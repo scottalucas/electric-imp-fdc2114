@@ -57,7 +57,7 @@ class Fdc2112 {
         ref_clk_src = {location = "\x1a", mask = 0x0200}
         intb_dis = {location = "\x1a", mask = 0x0080}
         high_current_drv = {location = "\x1a", mask = 0x0040}
-        autoscale_en = {location = "\x1b", mask = 0x8000}
+        autoscan_en = {location = "\x1b", mask = 0x8000}
         rr_sequence = {location = "\x1b", mask = 0x6000}
         deglitch = {location = "\x1b", mask = 0x0007}
         reset_dev_dr = {location = "\x1c", mask = 0x8000}
